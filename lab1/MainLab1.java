@@ -14,7 +14,6 @@ public class MainLab1 {
                 new PaidStudent("Егор", 5.2, false),
                 new ScholarshipStudent("Павел", 7.4, true)
         };
-
         // Создание репозитория для работы с коллекцией студентов
         Repository<Student> studentRepository = new Repository<>(studentsArray);
         Scanner scanner = new Scanner(System.in);
